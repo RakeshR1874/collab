@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration:none;
+}
+.head{
+        width: 100vw;
+        height: 30vh;
+        background-color: #1a1b1c;
+}
+.top-div{
+    display: flex;
+    justify-content: space-around;
+}
+.topic{
+    border-top: 4px solid #696b6b;
+    margin-left: 100px;
+}
+.topic a{
+    color:rgb(239, 183, 183);
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Open Sans Condensed', sans-serif; 
+}
+.topic a:hover{
+    color: #e7e7e7;
+}
+.menu-date{
+    margin-top: 60px;
+    margin-right: 40px;
+    text-align: center;
+}
+.menu-date h4{
+    font-size: 30px;
+    color: #5cdeae;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+.menu-date ul{
+    display: flex;
+}
+.menu-date li{
+    padding:10px 30px;
+    font-size: 20px;
+}
+.menu-date a{
+    color: white;
+}
+.menu-date a:hover{
+    color: #3a3737;
+}
+.schedule-sec{
+    width: 100vw;
+    height: 180px;
+    background-color: #1d1e1c;
+   text-align: center;
+}
+.schedule-div{
+    width: 50vw;
+    margin: auto;
+    padding: 30px 0px 30px 0px;
+}
+.schedule-div h{
+    font-size: 32px;
+    color: #6b6d6d;
+}
+.schedule-div p{
+    font-size: 25px;
+    padding :20px 0px 20px 0px;
+    color: #888;
+}
+.main-content{
+    margin: 80px auto;
+}
+.bio-speaker{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px ;
+}
+.div-content{
+    width: 550px;
+}
+.div-content h2{
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 6px;
+    color: #6d7070;
+}
+.div-content h4{
+    padding-bottom: 15px;
+    color: #191a1a;
+}
+.div-content p{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: #888;
+}
+.div-content h3{
+    color: #656968;
+}
+.img-content{
+    margin: 0px 40px;
+    display: grid;
+    border: 1px groove;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+}
+.img{
+    border-radius: 50%;
+}
+.foot{
+    background-color:#171819;
+    display: flex;
+    justify-content: space-around;
+    height: 15vh;
+}
+.foot-1{
+    text-transform: capitalize;
+    color: #5c5d5d;
+    margin:auto 0px;
+}
+.foot-2{
+    margin: auto 0px;
+}
+.foot-2 ul{
+    text-transform: capitalize;
+    display: flex;  
+}
+.foot-2 li{
+    padding: 0px 20px;
+}
+.foot-2 a{
+    color: white;
+}
+.foot-2 a:hover{
+    color: #888;
+}

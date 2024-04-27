@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration:none;
+}
+.head{
+        width: 100vw;
+        height: 30vh;
+        background-color: #121314;
+}
+.top-div{
+    display: flex;
+    justify-content: space-around;
+}
+.topic{
+    border-top: 4px solid #444847;
+    margin-left: 100px;
+}
+.topic a{
+    color:white;
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Open Sans Condensed', sans-serif; 
+}
+.topic a:hover{
+    color: #888;
+}
+.menu-date{
+    margin-top: 60px;
+    margin-right: 40px;
+    text-align: center;
+}
+.menu-date h4{
+    font-size: 30px;
+    color: #648880;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+.menu-date ul{
+    display: flex;
+}
+.menu-date li{
+    padding:10px 30px;
+    font-size: 20px;
+}
+.menu-date a{
+    color: white;
+}
+.menu-date a:hover{
+    color: #888;
+}
+.register-div{
+    width: 100vw;
+    background-color: #181414;
+    height: 230px;
+    text-align: center;
+    align-items: center;
+}
+.register-info{
+    padding-top:20px;
+    justify-content: space-between;
+    color: #d6e1db;;
+}
+.register-info h{
+    font-size: 35px;
+    font-family: 'Noticia Text', serif;
+}
+.register-info p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    font-family: 'Roboto Mono', monospace;
+}
+.main-content h3,label{
+    color:#1f2121;
+}
+.section-one{
+    width: 550px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.section-one p{
+    padding-top: 25px;
+}
+.upper-content{
+    margin-bottom: 20px;
+}
+.upper-content h4,p,li{
+    color:  #888;
+}
+.lower-content li{
+   list-style-type: square;
+}
+.lower-content h3{
+    padding: 10px 0px 20px 0px ;
+}
+.section-form{
+    width: 300px;
+    margin-top: 70px;   
+    margin-bottom: 70px;
+    margin-left: 50px;
+}
+.section-form div{
+    margin-bottom: 20px;
+}
+.section-form label{
+    display: block;
+    font-size: 20px;
+    padding-bottom: 3px;
+}
+.section-form select{
+    width: 60px;
+    height: 40px;
+    border: 1px solid #1e1e1f;
+    border-radius: 5px;
+
+}
+.section-form .insert{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #c6c9cc;
+    border-radius: 5px;
+}
+.section-form textarea{
+    width: 300px;
+    height: 80px;
+    border: 1px solid #303131;
+    border-radius: 5px;
+}
+.section-form #button{
+        width: 150px;
+        height: 40px;
+        text-transform: uppercase;
+        border: 1px solid #222324;
+        border-radius: 5px;
+        color: white;
+        background-color: #181a1a;
+}
+.foot{
+    background-color:#121313;
+    display: flex;
+    justify-content: space-around;
+    height: 15vh;
+}
+.foot-1{
+    text-transform: capitalize;
+    color: #161818;
+    margin:auto 0px;
+}
+.foot-2{
+    margin: auto 0px;
+}
+.foot-2 ul{
+    text-transform: capitalize;
+    display: flex;  
+}
+.foot-2 li{
+    padding: 0px 20px;
+}
+.foot-2 a{
+    color: white;
+}
+.foot-2 a:hover{
+    color: #888;
+}
