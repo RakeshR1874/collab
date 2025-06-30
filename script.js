@@ -1,19 +1,32 @@
 
-document.addEventListener("DOMContentLoaded", function () {
-  // Set current year in footer if there's a span with id="year"
-  const yearSpan = document.getElementById("year");
-  if (yearSpan) {
-    yearSpan.textContent = new Date().getFullYear();
+window.addEventListener("DOMContentLoaded", () => {
+  const yearEl = document.getElementById("year");
+  if (yearEl) {
+    yearEl.textContent = new Date().getFullYear();
   }
 
-  // Add hover effect to nav links
-  const navLinks = document.querySelectorAll(".menu-date a, .foot a");
-  navLinks.forEach((link) => {
-    link.addEventListener("mouseenter", () => {
+  
+  const links = document.querySelectorAll("a");
+  links.forEach(link => {
+    link.addEventListener("mouseover", () => {
       link.style.textDecoration = "underline";
+      link.style.color = "#c62828";
     });
-    link.addEventListener("mouseleave", () => {
+    link.addEventListener("mouseout", () => {
       link.style.textDecoration = "none";
+      link.style.color = "inherit";
+    });
+  });
+
+  
+  const speakerImgs = document.querySelectorAll(".img-content img");
+  speakerImgs.forEach(img => {
+    img.style.transition = "transform 0.3s ease";
+    img.addEventListener("mouseover", () => {
+      img.style.transform = "scale(1.05)";
+    });
+    img.addEventListener("mouseout", () => {
+      img.style.transform = "scale(1)";
     });
   });
 });
