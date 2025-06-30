@@ -1,69 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Campus Connect - Speakers</title>
-    <link rel="stylesheet" href="speakers.css"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speakers | Campus Connect</title>
+  <link rel="stylesheet" href="speakers.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans Condensed', sans-serif;
+      background-color: #fdfdfd;
+      color: #222;
+    }
+  </style>
 </head>
 <body>
-    <header class="head">
-        <div class="top-div">
-            <section class="topic">
-                <a href="index.html">CAMPUS<br><strong>CONNECT</strong></a>
-            </section>
-            <section class="menu-date">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="speaker.html">Speakers</a></li>
-                    <li><a href="register.html">Register</a></li>
-                </ul>
-            </section>
-        </div>
-    </header>
+  <header class="head">
+    <div class="top-div">
+      <section class="topic">
+        <a href="index.html">CAMPUS<br><strong>CONNECT</strong></a>
+      </section>
+      <section class="menu-date">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="speaker.html">Speakers</a></li>
+          <li><a href="register.html">Register</a></li>
+        </ul>
+      </section>
+    </div>
+  </header>
 
-    <section class="schedule-sec">
-        <div class="schedule-div">
-            <h2>Speakers</h2>
-            <p>We’re happy to welcome over 150 speakers to present on the industry’s latest technologies. Prepare for an inspiration extravaganza.</p>
-        </div>
+  <section class="schedule-sec">
+    <div class="schedule-div">
+      <h2>Speakers</h2>
+      <p>We’re proud to host 150+ thought leaders and change-makers from around the globe. Get ready to be inspired.</p>
+    </div>
+  </section>
+
+  <main class="main-content">
+    <section class="bio-speaker">
+      <div class="div-content">
+        <h2>Deepak Garg</h2>
+        <h4>Designing a Culture of Design</h4>
+        <p>Deepak is a Senior Product Designer at Nasdaq OMX. In this talk, he explores workplace culture and how design thrives within open, supportive environments.</p>
+        <p>He shares how to recognize and foster design-positive teams. His insights come from years of driving innovation in corporate and startup spaces.</p>
+        <h5>Connect</h5>
+        <p>@deepakgarg | thisisdeepak.com</p>
+      </div>
+      <div class="img-content">
+        <img src="images/deepak.jpg" alt="Deepak Garg" width="180">
+      </div>
     </section>
 
-    <main class="main-content">
-        <section class="bio-speaker" id="speaker-1">
-            <div class="div-content">
-                <h2>Deepak Garg</h2>
-                <h4>DESIGNING A CULTURE OF DESIGN</h4>
-                <p>Workplace culture doesn’t start with beanbags, foosball tables, or a beer fridge...</p>
-                <h3>ABOUT Deepak</h3>
-                <p>Deepak is a Senior Product Designer for Nasdaq OMX...</p>
-            </div>
-            <div class="img-content">
-                <img class="img" id="img-1" src="images/deepak.jpg" alt="Deepak Garg" width="150" height="150"/>
-                <p>@deepakgarg</p>
-                <p>thisisdeepak.com</p>
-            </div>
-        </section>
+    <section class="bio-speaker">
+      <div class="div-content">
+        <h2>Sourabh Bansal</h2>
+        <h4>Interaction Design Lessons from Filmmakers</h4>
+        <p>Films master emotion through storyboarding, pacing, and visuals. Sourabh discusses how these same tools enhance digital design and UX strategy.</p>
+        <p>He blends experience from computer science, animation, and design to tell engaging product stories.</p>
+        <h5>Connect</h5>
+        <p>@sourabhbansal | thisissourabh.com</p>
+      </div>
+      <div class="img-content">
+        <img src="images/sourabh.jpg" alt="Sourabh Bansal" width="180">
+      </div>
+    </section>
+  </main>
 
-    
+  <footer class="foot">
+    <section class="foot-1">
+      <p>© <span id="year"></span> Campus Connect</p>
+    </section>
+    <section class="foot-2">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="speaker.html">Speakers</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </section>
+  </footer>
 
-    </main>
-
-    <footer class="foot">
-        <section class="foot-1">
-            <p>© Campus Connect</p>
-        </section>
-        <section class="foot-2">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="speaker.html">Speakers</a></li>
-                <li><a href="register.html">Register</a></li>
-            </ul>
-        </section>
-    </footer>
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
