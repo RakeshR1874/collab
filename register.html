@@ -4,20 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Style Conference</title>
+    <title>Campus Connect - Register</title>
     <link rel="stylesheet" href="register.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
-     <header class="head">
+    <header class="head">
         <div class="top-div">
             <section class="topic">
-            <a href="home.html">CAMPUS<br>CONNECT</a>
+                <a href="home.html">CAMPUS<br><strong>CONNECT</strong></a>
             </section>
             <section class="menu-date">
-                <h4> </h4>  
                 <ul>
                     <li><a href="home.html">Home</a></li>
                     <li><a href="speaker.html">Speakers</a></li>
@@ -25,62 +24,65 @@
                 </ul>
             </section>
         </div>
-        </header>
-        <section class="register-div">
-            <div class="register-info">
-            <h>Register</h>
-            <p>50+ SUCCESSFUL SPEAKER SESSIONS </p>
-            <p>Cost of speakers varies from free to 50k, one of the best package.</p>
+    </header>
+
+    <section class="register-div">
+        <div class="register-info">
+            <h2>Register</h2>
+            <p>50+ SUCCESSFUL SPEAKER SESSIONS</p>
+            <p>Cost of speakers varies from free to ₹50,000. One of the best-value packages available.</p>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <section class="section-one">
+            <div class="upper-content">
+                <h3>Book a Meeting</h3>
+                <h4>Meet our team and reserve your speaker</h4>
+                <p>Fill in your details using the form. Multiple bookings are allowed. Once submitted, we’ll follow up with details via email.</p>
+            </div>
+            <div class="lower-content">
+                <h3>Why Us?</h3>
+                <ul>
+                    <li>Access to over 150 world-class speakers</li>
+                    <li>Hosted 50+ successful speaker events</li>
+                    <li>Book industrial experts at your place and time</li>
+                </ul>
             </div>
         </section>
-        <main class="main-content">
-            <section class="section-one">
-               <div class="upper-content">
-                  <h3>Book a meeting</h3>
-                  <h4>To meet our team and book your speaker</h4>
-                  <p>Fill in your details using the form to the right. Multiple bookings are also allowed. Once you finish the process is finished we’ll follow up and mail you further details. </p>
-               </div>
-               <div class="lower-content">
-                  <h3>Why us?</h3>
-                  <ul>
-                      <li>Over 150 world-class speakers</li>
-                     
-                      <li>Hosted over 50+ successfull speaker events</li>
-                      <li>Industrial experts at your place and your time</li>
-                  </ul>
-               </div>
-            </section>
-            <section class="section-form">
-                  <div>
+
+        <section class="section-form">
+            <form action="#" method="POST">
+                <div>
                     <label class="label" for="name">Name</label>
-                    <input class="insert" type="text" required id="name" name="user_name" placeholder=" Full Name ">
-                  </div>
-                  <div>
+                    <input class="insert" type="text" required id="name" name="user_name" placeholder="Full Name">
+                </div>
+                <div>
                     <label class="label" for="email">Email</label>
-                    <input class="insert" type="email" required id="email" name="email" placeholder=" Email Address ">
-                  </div>
-                
+                    <input class="insert" type="email" required id="email" name="email" placeholder="Email Address">
+                </div>
                 <div>
                     <label class="label" for="comments">Comments</label>
-                    <textarea id="text" name="comments"></textarea>
+                    <textarea class="insert" id="comments" name="comments" placeholder="Your message or preferences..."></textarea>
                 </div>
-                <div >
-                    <button  id="button" type="submit">Request</button>
+                <div>
+                    <button id="button" type="submit">Submit Request</button>
                 </div>
-            </section>
-        </main>
-        <footer class="foot">
-            <section class="foot-1" >
-                   <p>© Campus connect</p>
-            </section>
-            <section class="foot-2">
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="speaker.html">Speakers</a></li>
-                    
-                    <li><a href="register.html">Register</a></li>
-                </ul>
-            </section>
-        </footer>
+            </form>
+        </section>
+    </main>
+
+    <footer class="foot">
+        <section class="foot-1">
+            <p>© Campus Connect</p>
+        </section>
+        <section class="foot-2">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="speaker.html">Speakers</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </section>
+    </footer>
 </body>
 </html>
